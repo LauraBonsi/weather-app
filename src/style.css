@@ -1,0 +1,49 @@
+body {
+  background: radial-gradient(
+    401px at 50.6% -0.3%,
+    rgba(255, 255, 255, 0.31) 1.2%,
+    rgb(36, 212, 219) 100.2%
+  );
+  min-height: 100vh;
+}
+h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.search-button {
+  --bs-btn-bg: #fff;
+}
+.search-bar {
+  justify-content: none;
+}
+.temperature {
+  font-weight: bold;
+}
+.next-x-days {
+  border-left: 1px solid rgba(41, 40, 40, 0.3);
+  padding-bottom: 1rem;
+}
+.today-box {
+  border: 1px solid rgba(41, 40, 40, 0.3);
+  margin: 10px;
+  padding: 30px 20px 50px 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.bottom-half {
+  margin-top: 30px;
+}
+.weather-img {
+  height: 64px;
+}
+.big-temperature {
+  font-size: 48px;
+  font-weight: 500;
+  padding-left: 15px;
+  line-height: 1;
+}
+.units {
+  position: relative;
+  top: -25px;
+}
